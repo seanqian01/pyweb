@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '为什么我用了一天的时间才学会!'
+    return '我现在也不知道到底哪个对.'
 
 if __name__ == '__main__':
     app.run()
